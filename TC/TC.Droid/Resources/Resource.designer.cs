@@ -47,6 +47,8 @@ namespace TC.Droid
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::TC.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::TC.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::TC.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Plugins.Sqlite.Droid.Resource.String.ApplicationName = global::TC.Droid.Resource.String.ApplicationName;
+			global::MvvmCross.Plugins.Sqlite.Droid.Resource.String.Hello = global::TC.Droid.Resource.String.Hello;
 		}
 		
 		public partial class Attribute
@@ -105,32 +107,44 @@ namespace TC.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int MvvmCrossTagId = 2130968576;
+			// aapt resource value: 0x7f050000
+			public const int MvvmCrossTagId = 2131034112;
 			
-			// aapt resource value: 0x7f040001
-			public const int MvxBindingTagUnique = 2130968577;
+			// aapt resource value: 0x7f050001
+			public const int MvxBindingTagUnique = 2131034113;
 			
-			// aapt resource value: 0x7f040007
-			public const int catalog_listView = 2130968583;
+			// aapt resource value: 0x7f05000b
+			public const int catalog_listView = 2131034123;
 			
-			// aapt resource value: 0x7f040003
-			public const int img_category_icon = 2130968579;
+			// aapt resource value: 0x7f050003
+			public const int img_category_icon = 2131034115;
 			
-			// aapt resource value: 0x7f040008
-			public const int myButton = 2130968584;
+			// aapt resource value: 0x7f050007
+			public const int img_category_icon_2 = 2131034119;
 			
-			// aapt resource value: 0x7f040002
-			public const int relativeLayout1 = 2130968578;
+			// aapt resource value: 0x7f05000c
+			public const int myButton = 2131034124;
 			
-			// aapt resource value: 0x7f040006
-			public const int text_view = 2130968582;
+			// aapt resource value: 0x7f050002
+			public const int relativeLayout1 = 2131034114;
 			
-			// aapt resource value: 0x7f040005
-			public const int txt_category_desc = 2130968581;
+			// aapt resource value: 0x7f050006
+			public const int relativeLayout2 = 2131034118;
 			
-			// aapt resource value: 0x7f040004
-			public const int txt_category_name = 2130968580;
+			// aapt resource value: 0x7f05000a
+			public const int text_view = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int txt_category_desc = 2131034117;
+			
+			// aapt resource value: 0x7f050009
+			public const int txt_category_desc_2 = 2131034121;
+			
+			// aapt resource value: 0x7f050004
+			public const int txt_category_name = 2131034116;
+			
+			// aapt resource value: 0x7f050008
+			public const int txt_category_name_2 = 2131034120;
 			
 			static Id()
 			{
@@ -149,16 +163,22 @@ namespace TC.Droid
 			public const int category_item = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int CategoryView = 2130903041;
+			public const int category_item_2 = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int FirstView = 2130903042;
+			public const int CategoryView = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int CustomImageDownloaderView = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int SplashScreen = 2130903044;
+			public const int FirstView = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Main = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int SplashScreen = 2130903046;
 			
 			static Layout()
 			{
@@ -173,11 +193,17 @@ namespace TC.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int app_name = 2131099649;
+			// aapt resource value: 0x7f040001
+			public const int ApplicationName = 2130968577;
 			
-			// aapt resource value: 0x7f060000
-			public const int hello = 2131099648;
+			// aapt resource value: 0x7f040000
+			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040003
+			public const int app_name = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int hello = 2130968578;
 			
 			static String()
 			{
@@ -192,8 +218,8 @@ namespace TC.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f060000
+			public const int Theme_Splash = 2131099648;
 			
 			static Style()
 			{
